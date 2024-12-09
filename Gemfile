@@ -27,7 +27,7 @@ gem "hotwire_combobox"
 gem "good_job"
 
 # Error logging
-gem "stackprof"
+gem "stackprof", '0.2.26'
 gem "sentry-ruby"
 gem "sentry-rails"
 
@@ -65,7 +65,7 @@ end
 group :development do
   gem "hotwire-livereload"
   gem "letter_opener"
-  gem "ruby-lsp-rails"
+  gem "ruby-lsp-rails", "0.3.26"
   gem "web-console"
   gem "faker"
 end
